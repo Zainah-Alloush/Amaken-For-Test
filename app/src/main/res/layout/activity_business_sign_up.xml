@@ -106,6 +106,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+
     <TextView
         android:id="@+id/txt2"
         android:layout_width="wrap_content"
@@ -127,5 +128,48 @@
         android:layout_below="@+id/view3"
         android:layout_alignLeft="@+id/txt2"
         android:layout_alignStart="@+id/txt2" />
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business name"
+        android:textColor="@color/ColorGray"
+        android:layout_marginTop="110dp"
+        android:layout_below="@+id/view2"
+        android:layout_alignLeft="@+id/image2"
+        android:layout_alignStart="@+id/image2" />
+
+    />
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/ColorGray"
+        android:layout_below="@+id/txt4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:textColor="@color/ColorGray"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/view5"
+        android:layout_alignLeft="@+id/image2"
+        android:layout_alignStart="@+id/image2" />
+
+    />
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/ColorGray"
+        android:layout_below="@+id/txt5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp" />
 
 </RelativeLayout>
