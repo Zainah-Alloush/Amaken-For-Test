@@ -12,14 +12,11 @@
     android:background="@color/ColorWhite">
 
     <View
-        android:id="@+id/view"
+        android:id="@+id/view1"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@color/ColorLighGreen"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
+        android:layout_alignParentTop="true" />
 
     <ImageView
         android:id="@+id/image"
@@ -34,7 +31,7 @@
         android:layout_marginTop="14dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Business"
@@ -44,36 +41,47 @@
         android:layout_toRightOf="@+id/image"
         android:layout_toEndOf="@+id/image" />
 
-    <View
-        android:id="@+id/view1"
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@color/ColorLighGreen"
-         />
-
-
-
-    <ImageView
-        android:id="@+id/image2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/user"
-        android:layout_marginTop="13dp"
-        android:layout_below="@+id/view"
-        android:layout_toLeftOf="@+id/txt1"
-        android:layout_toStartOf="@+id/txt1" />
 
     <TextView
-        android:id="@+id/txt1"
+        android:id="@+id/txt3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Profile Picture"
+        android:text="Enter Email"
         android:textColor="@color/ColorGray"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="4dp"
-        android:layout_alignTop="@+id/image2"
-        android:layout_toRightOf="@+id/image"
-        android:layout_toEndOf="@+id/image" />
+        android:layout_below="@+id/view2"
+        android:layout_marginTop="15dp"/>
+
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/ColorGray"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/view3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/ColorGray"
+        android:layout_below="@+id/txt3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/ColorGray"
+        android:layout_below="@+id/txt4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
 
     <View
         android:id="@+id/view2"
@@ -83,93 +91,151 @@
         android:layout_below="@+id/image2"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_toRightOf="@+id/image2"
-        android:layout_toEndOf="@+id/image2" />
+        android:layout_marginTop="11dp"
+        android:layout_alignLeft="@+id/txt1"
+        android:layout_alignStart="@+id/txt1" />
 
-    <View
-        android:id="@+id/view3"
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@color/ColorGray"
-        android:layout_below="@+id/txt2"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="12dp" />
-
-    <View
-        android:id="@+id/view4"
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@color/ColorGray"
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user"
         android:layout_marginTop="15dp"
-        android:layout_below="@+id/txt3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
+        android:layout_below="@+id/view1"
+        android:layout_alignRight="@+id/txt4"
+        android:layout_alignEnd="@+id/txt4" />
 
     <TextView
         android:id="@+id/txt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter Email"
+        android:text="Profile Picture"
         android:textColor="@color/ColorGray"
-        android:layout_marginTop="16dp"
-        android:layout_below="@+id/view2"
-        android:layout_alignLeft="@+id/image2"
-        android:layout_alignStart="@+id/image2" />
-
-    <TextView
-        android:id="@+id/txt3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Password"
-        android:textColor="@color/ColorGray"
-        android:layout_marginTop="17dp"
-        android:layout_below="@+id/view3"
-        android:layout_alignLeft="@+id/txt2"
-        android:layout_alignStart="@+id/txt2" />
-    <TextView
-        android:id="@+id/txt4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Business name"
-        android:textColor="@color/ColorGray"
-        android:layout_marginTop="110dp"
-        android:layout_below="@+id/view2"
-        android:layout_alignLeft="@+id/image2"
-        android:layout_alignStart="@+id/image2" />
-
-    />
-    <View
-        android:id="@+id/view5"
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@color/ColorGray"
-        android:layout_below="@+id/txt4"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="12dp" />
+        android:layout_alignBottom="@+id/image2"
+        android:layout_toRightOf="@+id/txt3"
+        android:layout_toEndOf="@+id/txt3" />
 
     <TextView
         android:id="@+id/txt5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Website"
+        android:text="Business name"
         android:textColor="@color/ColorGray"
-        android:layout_marginTop="15dp"
-        android:layout_below="@+id/view5"
-        android:layout_alignLeft="@+id/image2"
-        android:layout_alignStart="@+id/image2" />
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-    />
     <View
-        android:id="@+id/view6"
+        android:id="@+id/view5"
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:background="@color/ColorGray"
+        android:layout_marginTop="12dp"
         android:layout_below="@+id/txt5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:textColor="@color/ColorGray"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/view5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/ColorTorquise"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/txt6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business number "
+        android:textColor="@color/ColorGray"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/txt6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/ColorGray"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/txt7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <TextView
+        android:id="@+id/txt8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Business Type"
+        android:textColor="@color/ColorGray"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/view7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/txt9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business Place "
+        android:textColor="@color/ColorGray"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/txt1"
+        android:layout_alignEnd="@+id/txt1"
+        android:layout_marginBottom="24dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/business_prompt"
+
+        android:layout_alignBottom="@+id/view8"
+        android:layout_alignLeft="@+id/image"
+        android:layout_alignStart="@+id/image" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/ColorGray"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/txt8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/txt9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up "
+        android:textStyle="bold"
+        android:textColor="@color/ColorTorquise"
+        android:layout_marginBottom="11dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="12dp" />
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp" />
 
 </RelativeLayout>

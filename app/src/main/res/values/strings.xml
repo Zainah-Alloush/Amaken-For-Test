@@ -4,4 +4,6 @@
     <string name="login">Login</string>
     <string name="button">Button</string>
     <string name="buttond">Button</string>
-</resources>
+    <string name="business_prompt">Select</string>
+
+ </resources>
