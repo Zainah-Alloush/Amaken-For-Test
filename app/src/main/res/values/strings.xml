@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">Amaken-Application</string>
     <string name="name">Name</string>
-    <string name="login">Login</string>
+    <string name="login">Sing In</string>
     <string name="button">Button</string>
     <string name="buttond">Button</string>
     <string name="business_prompt">Select</string>
+    <string name="namehit">Name</string>
+    <string name="passwordhint">Password</string>
+    <string name="sign_in_with_facebook">SIGN IN WITH FACEBOOK</string>
+    <string name="sign_in_with_google">SIGN IN WITH GOOGLE</string>
 
- </resources>
+</resources>

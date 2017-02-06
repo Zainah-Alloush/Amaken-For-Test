@@ -15,10 +15,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="@string/name"
         android:ems="10"
         android:layout_marginTop="53dp"
-        android:id="@+id/editUserName" />
+        android:id="@+id/editUserName"
+        android:hint="@string/namehit" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -31,11 +31,12 @@
         android:layout_marginRight="11dp"
         android:layout_marginEnd="11dp"
         android:layout_marginTop="30dp"
-        android:id="@+id/editUserPassword" />
+        android:id="@+id/editUserPassword"
+        android:hint="@string/passwordhint" />
 
     <Button
         android:text="@string/login"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editUserPassword"
         android:layout_alignParentRight="true"
@@ -43,25 +44,53 @@
         android:layout_marginRight="22dp"
         android:layout_marginEnd="22dp"
         android:layout_marginTop="35dp"
-        android:id="@+id/loginButton" />
+        android:id="@+id/loginButton"
+        android:background="@color/ColorGreen" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/google_login_ico"
-        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/iconfacebook"
+        android:layout_below="@+id/loginButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="33dp"
+        android:id="@+id/facebookLogButton"
+        android:contentDescription="login" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icongoogle"
+        android:layout_below="@+id/facebookLogButton"
+        android:layout_alignRight="@+id/facebookLogButton"
+        android:layout_alignEnd="@+id/facebookLogButton"
+        android:layout_marginTop="13dp"
         android:id="@+id/googleLogButton"
-        android:layout_alignParentBottom="true"
+        android:contentDescription="login by facebook" />
+
+    <TextView
+        android:text="@string/sign_in_with_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/googleLogButton"
         android:layout_toRightOf="@+id/facebookLogButton"
         android:layout_toEndOf="@+id/facebookLogButton" />
 
-    <ImageButton
+    <TextView
+        android:text="@string/sign_in_with_google"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/network_facebook"
-        android:id="@+id/facebookLogButton"
-        android:layout_alignTop="@+id/googleLogButton"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignBottom="@+id/googleLogButton"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/textView4" />
 
 </RelativeLayout>
