@@ -27,7 +27,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignUpAsUser" />
-        <activity android:name=".NextSingUpUser"></activity>
+        <activity android:name=".NextSingUpUser" />
+        <activity android:name=".EditListOfCategories"></activity>
     </application>
 
 </manifest>
