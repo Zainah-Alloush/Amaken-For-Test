@@ -26,7 +26,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SignUpAsUser"></activity>
+        <activity android:name=".SignUpAsUser" />
+        <activity android:name=".NextSingUpUser"></activity>
     </application>
 
 </manifest>

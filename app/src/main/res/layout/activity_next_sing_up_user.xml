@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up_as_user"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/ColorWhite">>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">>
+        <TextView
+            android:text="Chooses interest categories:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textColor="#009688"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp" />
+
+        <CheckBox
+            android:text="Choose all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chooseAll"
+            android:textAllCaps="false"
+            android:textColor="#4A4E4E"
+            app:buttonTint="#4A4E4E"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="15dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <CheckBox
+                android:text="Hospitals "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#009688"
+                app:buttonTint="#645F5F"
+                android:paddingRight="50dp"
+                android:textSize="14sp"
+                android:id="@+id/checkBox1" />
+
+            <CheckBox
+                android:text="Malls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox2"
+                android:textColor="#009688"
+                app:buttonTint="#645F5F"
+                android:paddingRight="50dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center">
+
+            <CheckBox
+                android:text="Hair Stylists  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#009688"
+                app:buttonTint="#645F5F"
+                android:paddingRight="32dp"
+                android:textSize="14sp"
+                android:id="@+id/checkBox3" />
+
+            <CheckBox
+                android:text="Entertainment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox4"
+                android:textColor="#009688"
+                app:buttonTint="#645F5F"
+                android:paddingRight="50dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <CheckBox
+                android:text="Cafes                       "
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:textColor="#009688"
+                app:buttonTint="#645F5F"
+                android:paddingRight="19dp"
+                android:textSize="14sp"
+                android:layout_marginLeft="38dp"
+                android:id="@+id/checkBox5"
+                android:layout_weight="0.19" />
+
+            <CheckBox
+                android:text="Spa and leisure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox6"
+                android:textColor="#009688"
+                app:buttonTint="#645F5F"
+                android:textSize="14sp"
+                android:layout_marginLeft="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <CheckBox
+                android:text=" Tourism         "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#009688"
+                app:buttonTint="#645F5F"
+                android:textSize="14sp"
+                android:id="@+id/checkBox7"
+                android:layout_marginLeft="25dp" />
+
+            <CheckBox
+                android:text="Sport     "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox8"
+                android:textColor="#009688"
+                app:buttonTint="#645F5F"
+                android:textSize="14sp"
+                android:layout_marginLeft="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:text="Education "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#009688"
+                app:buttonTint="#645F5F"
+                android:textSize="14sp"
+                android:id="@+id/checkBox9"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="44dp" />
+
+            <CheckBox
+                android:text="Hotels "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox10"
+                android:textColor="#009688"
+                app:buttonTint="#645F5F"
+                android:paddingRight="50dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal">
+
+            <CheckBox
+                android:text="Restaurants "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#009688"
+                app:buttonTint="#645F5F"
+                android:textSize="14sp"
+                android:id="@+id/checkBox11"
+                android:layout_marginLeft="1dp"
+                android:paddingRight="33dp" />
+
+            <CheckBox
+                android:text="Parks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox12"
+                android:textColor="#009688"
+                app:buttonTint="#645F5F"
+                android:paddingRight="50dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:text="SIGN UP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:background="#00ffffff"
+            android:textColor="#009688"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="35dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
